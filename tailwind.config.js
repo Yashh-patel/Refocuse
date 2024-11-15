@@ -3,7 +3,8 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}", // Adjust paths based on the files where Tailwind classes are used
+    "./src./**/*.{js,jsx,ts,tsx}",
+    "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
